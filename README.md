@@ -39,6 +39,9 @@ Time-series sales forecasting project built using historical retail sales data t
 - Category-level and region-level forecasting
 - Comparison with ARIMA and LSTM models
 - Interactive dashboard deployment using Streamlit
+  
+## Dashboard Preview
+![Sales Forecasting Dashboard](sales forecasting dashboard.png)
 
 ## Author
 Ashwitha Parama Nagaraju
