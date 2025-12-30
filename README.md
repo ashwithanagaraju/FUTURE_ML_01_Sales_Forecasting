@@ -1,48 +1,10 @@
-# FUTURE_ML_01_Sales_Forecasting
-AI-Powered Sales Forecasting Dashboard — Future Interns ML Task 1
+# AI-Powered Sales Forecasting Dashboard
 
-## Project Overview
-Time-series sales forecasting project built using historical retail sales data to predict future sales trends. The project demonstrates data preprocessing, forecasting, evaluation, and visualization.
+This project implements a sales forecasting system using historical retail sales data to analyze trends and predict future sales performance. The solution focuses on time-series forecasting at a monthly granularity, combining statistical modeling with data visualization to support business decision-making.
 
-## Dataset
-- **Source:** Sample – Superstore
-- **Granularity:** Monthly sales
-- **Target Variable:** Sales amount
+The project applies data preprocessing, trend analysis, and forecasting techniques to capture seasonality and long-term sales patterns. A forecasting model is trained on historical data to generate forward-looking sales projections, which are evaluated using standard error metrics and visualized through analytical plots and an interactive dashboard.
 
-## Tech Stack
-- Python
-- Pandas, NumPy
-- Prophet (time-series forecasting)
-- Matplotlib
-- Power BI (dashboard visualization)
-
-## Approach
-- Aggregated historical sales data at a monthly level
-- Analyzed sales trends and variability
-- Trained a Prophet forecasting model on historical data
-- Generated a six-month sales forecast
-- Evaluated model performance using MAE and RMSE
-- Visualized historical and forecasted trends
-
-## Visualizations
-- Monthly sales trend
-- Six-month sales forecast
-- Dashboard created using Power BI
-- Python visualizations used as the primary reference
-
-## Key Takeaways
-- Time-series models can effectively capture sales patterns
-- Forecasting supports planning and decision-making
-- Data aggregation level significantly impacts forecast quality
-
-## Future Enhancements
-- Category-level and region-level forecasting
-- Comparison with ARIMA and LSTM models
-- Interactive dashboard deployment using Streamlit
+The system demonstrates the practical application of time-series forecasting in a business context, highlighting how predictive analytics can be used to support planning, demand estimation, and performance analysis.
   
 ## Dashboard Preview
 ![Sales Forecasting Dashboard](sales forecasting dashboard.png)
-
-## Author
-Ashwitha Parama Nagaraju
-2025
